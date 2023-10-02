@@ -1,0 +1,39 @@
+body {background-color: gray;}
+
+td, th {
+	border: 5px solid blue;
+  color: black;
+  font-style: bold;
+  }
+th{
+  font-size: larger;
+}
+h1{
+  font-family: 'bookman old style';
+  font-style: bold;
+  text-align: center;
+  color: Red;
+  }
+tr{
+  font-family: 'Arial Black';
+  font-size:16px;
+  }
+table{
+  border-collapse: collapse;
+  text-align: center;
+  }
+th:nth-child(1), td:nth-child(1){
+  background-color: #27C08C;
+}
+th:nth-child(2), td:nth-child(2){
+  background-color: #4AC021;
+}
+th:nth-child(3), td:nth-child(3){
+  background-color: #D1410A;
+}
+th:nth-child(4), td:nth-child(4){
+  background-color: #12305e;
+}
+th:nth-child(5), td:nth-child(5){
+  background-color: #D1CB0A;
+}
